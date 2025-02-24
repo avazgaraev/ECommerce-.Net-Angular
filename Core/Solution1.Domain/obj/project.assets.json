@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\Solution1.Domain.csproj",
+      "projectUniqueName": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\Solution1.Domain.csproj",
       "projectName": "Solution1.Domain",
-      "projectPath": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\Solution1.Domain.csproj",
+      "projectPath": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\Solution1.Domain.csproj",
       "packagesPath": "C:\\Users\\Jee\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\obj\\",
+      "outputPath": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jee\\AppData\\Roaming\\NuGet\\NuGet.Config",

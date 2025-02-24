@@ -1,5 +1,4 @@
-﻿using Solution1.Application.Abstraction;
-using Solution1.Domain.Entities.Common;
+﻿using Solution1.Domain.Entities.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Solution1.Persistence.Concretes
 {
-    public class ProductService : IProductService
+    public class ProductService
     {
         public List<Product> GetProducts()
             => new()

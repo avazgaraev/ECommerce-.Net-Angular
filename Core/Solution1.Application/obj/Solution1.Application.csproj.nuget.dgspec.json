@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Application\\Solution1.Application.csproj": {}
+    "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Application\\Solution1.Application.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Application\\Solution1.Application.csproj": {
+    "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Application\\Solution1.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Application\\Solution1.Application.csproj",
+        "projectUniqueName": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Application\\Solution1.Application.csproj",
         "projectName": "Solution1.Application",
-        "projectPath": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Application\\Solution1.Application.csproj",
+        "projectPath": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Application\\Solution1.Application.csproj",
         "packagesPath": "C:\\Users\\Jee\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Application\\obj\\",
+        "outputPath": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jee\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\Solution1.Domain.csproj": {
-                "projectPath": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\Solution1.Domain.csproj"
+              "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\Solution1.Domain.csproj": {
+                "projectPath": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\Solution1.Domain.csproj"
               }
             }
           }
@@ -49,6 +49,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +87,14 @@
         }
       }
     },
-    "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\Solution1.Domain.csproj": {
+    "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\Solution1.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\Solution1.Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\Solution1.Domain.csproj",
         "projectName": "Solution1.Domain",
-        "projectPath": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\Solution1.Domain.csproj",
+        "projectPath": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\Solution1.Domain.csproj",
         "packagesPath": "C:\\Users\\Jee\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\E-CommercePro Net+Angular\\Solution1\\Core\\Solution1.Domain\\obj\\",
+        "outputPath": "D:\\Projects\\E-CommercePro Net+Angular\\EShoppingAPI\\Core\\Solution1.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jee\\AppData\\Roaming\\NuGet\\NuGet.Config",

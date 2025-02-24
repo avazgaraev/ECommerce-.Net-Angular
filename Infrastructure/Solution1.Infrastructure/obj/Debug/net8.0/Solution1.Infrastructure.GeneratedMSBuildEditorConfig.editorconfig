@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Solution1.Infrastructure
-build_property.ProjectDir = D:\Projects\E-CommercePro Net+Angular\Solution1\Infrastructure\Solution1.Infrastructure\
+build_property.ProjectDir = D:\Projects\E-CommercePro Net+Angular\EShoppingAPI\Infrastructure\Solution1.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
